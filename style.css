@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Tahoma, sans-serif;
+}
+
+
+body{
+
+    background:#f4f8ff;
+    color:#222;
+
+}
+
+
+
+/* الهيدر */
+
+header{
+
+    background:#063970;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 25px;
+
+}
+
+
+.logo{
+
+    font-size:25px;
+    font-weight:bold;
+
+}
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+
+    margin:0 8px;
+
+}
+
+
+
+/* الصفحة الرئيسية */
+
+.hero{
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+    padding:50px 20px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.hero-text{
+
+    max-width:500px;
+
+}
+
+
+.hero-text h1{
+
+    color:#063970;
+
+    font-size:38px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.hero-text p{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
+
+
+
+button{
+
+    background:#063970;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 30px;
+
+    border-radius:25px;
+
+    margin-top:20px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+}
+
+
+
+button:hover{
+
+    background:#0b63ce;
+
+}
+
+
+
+.icon img{
+
+    width:200px;
+
+}
+
+
+
+/* الأقسام */
+
+.levels{
+
+    text-align:center;
+
+    padding:40px 20px;
+
+}
+
+
+
+.levels h2{
+
+    color:#063970;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.cards{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    width:280px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px #0002;
+
+    transition:.3s;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.card h3

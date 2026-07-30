@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>إضافة امتحان | الخوارزمي</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+🧮 الخوارزمي
+</div>
+
+</header>
+
+
+
+
+<section class="admin">
+
+
+<h1>
+➕ امتحان جديد
+</h1>
+
+
+<p>
+يلا يا مستر اعمل امتحان جامد 😂🔥
+</p>
+
+
+
+<div class="admin-card">
+
+
+<input 
+id="title"
+type="text"
+placeholder="اسم الامتحان">
+
+
+<select id="level">
+
+<option value="">
+اختار المرحلة
+</option>
+
+<option>
+ابتدائي 📘
+</option>
+
+<option>
+إعدادي 📗
+</option>
+
+<option>
+ثانوي 📕
+</option>
+
+</select>
+
+
+
+<textarea 
+id="description"
+placeholder="وصف الامتحان">
+</textarea>
+
+
+
+<input 
+id="time"
+type="number"
+placeholder="مدة الامتحان بالدقائق">
+
+
+
+<button id="saveExam">
+🚀 نشر الامتحان
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script src="../js/supabase.js"></script>
+
+<script src="../js/add-exam.js"></script>
+
+
+</body>
+
+</html>
